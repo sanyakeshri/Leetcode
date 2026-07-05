@@ -3,12 +3,11 @@
 class Solution {
     public int pivotIndex(int[] nums) {
 
-        // Stores sum of all elements.
-        int totalSum = 0;
+        int rightSum = 0;
 
-        // Calculate total sum
+        // Calculate total rightsum
         for (int num : nums) {
-            totalSum += num;
+            rightSum += num;
         }
 
         int leftSum = 0;
@@ -16,9 +15,9 @@ class Solution {
         // Find pivot index
         for (int i = 0; i < nums.length; i++) {
 
-            int rightSum = totalSum - leftSum - nums[i];
+            rightSum -= nums[i];
 
-            if (leftSum == rightSum) {
+            if (rightSum == leftSum) {
                 return i;
             }
 
