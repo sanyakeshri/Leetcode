@@ -1,4 +1,4 @@
-// Check if array is sorted:
+// 3.Check if array is sorted:
 
 class Solution {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ class Solution {
 
         boolean sorted = true;
 
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {              //If start from '1' then (i< arr.length)
             if (arr[i] > arr[i + 1]) {
                 sorted = false;
                 break;
