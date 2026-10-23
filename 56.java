@@ -1,5 +1,5 @@
-// Array basics question from (56-76):
-// Largest elemenmt in an array:
+// Array basics question (Total = 55Q of array from this file n so on...):
+// 1.Largest elemenmt in an array:
 
 class Solution{
     public static void main(String[] args) {

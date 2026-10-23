@@ -1,4 +1,4 @@
-// 3.Reverse an Array
+// 3.Reverse an Array(Two-Pointer Approach)
 
 class Solution {
     public static void main(String[] args) {

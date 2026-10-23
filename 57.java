@@ -1,4 +1,4 @@
-// 3.Check if array is sorted:
+// 2.Check if array is sorted:
 
 class Solution {
     public static void main(String[] args) {

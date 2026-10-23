@@ -1,6 +1,6 @@
 // Second largest element -GFG
 
-int getSecondLargest(int *arr, int n) {
+int getSecondLargest(int [] arr, int n) {
     int largest = arr[0];
     int second = -1;
 
